@@ -1,5 +1,5 @@
 {
-  "name": "@zhaow-de/playwright-cluster",
+  "name": "@randytarampi/playwright-cluster",
   "version": "0.3.1",
   "description": "Cluster management for playwright",
   "main": "dist/src/index.js",
@@ -12,12 +12,12 @@
   "engines": {
     "node": ">= 18.12 <19"
   },
-  "author": "Thomas Dondorf, Christian Nikolov, Andrew Vlasyuk, Zhao Wang",
+  "author": "Thomas Dondorf, Christian Nikolov, Andrew Vlasyuk, Zhao Wang, Randy Tarampi",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zhaow-de/playwright-cluster.git"
+    "url": "git+https://github.com/randytarampi/playwright-cluster.git"
   },
-  "homepage": "https://github.com/zhaow-de/playwright-cluster",
+  "homepage": "https://github.com/randytarampi/playwright-cluster",
   "keywords": [
     "playwright",
     "cluster",
