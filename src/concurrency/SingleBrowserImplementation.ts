@@ -42,7 +42,7 @@ export abstract class SingleBrowserImplementation extends ConcurrencyImplementat
     }
 
     try {
-      this.browser = (await this.playwright.firefox.launch(this.options)) as playwright.Browser;
+      this.browser = (await this.playwright.chromium.launch(this.options)) as playwright.Browser;
     } catch (err) {
       /* istanbul ignore next */
       throw new Error('Unable to restart browser.');
@@ -55,7 +55,7 @@ export abstract class SingleBrowserImplementation extends ConcurrencyImplementat
   }
 
   public async init() {
-    this.browser = await this.playwright.firefox.launch(this.options);
+    this.browser = await this.playwright.chromium.launch(this.options);
   }
 
   public async close() {
