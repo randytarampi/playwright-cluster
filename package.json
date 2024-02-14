@@ -10,7 +10,7 @@
     "dev": "npx tsc --watch"
   },
   "engines": {
-    "node": ">= 18.12 <19"
+    "node": ">=16"
   },
   "author": "Thomas Dondorf, Christian Nikolov, Andrew Vlasyuk, Zhao Wang, Randy Tarampi",
   "repository": {
@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/debug": "^4.1.8",
     "@types/jest": "^29.5.2",
-    "@types/node": "^18.16.19",
+    "@types/node": "^16.18.80",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "coveralls": "^3.1.1",
