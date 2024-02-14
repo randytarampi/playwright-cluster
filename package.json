@@ -58,6 +58,6 @@
     "test": "test"
   },
   "files": [
-    "dist/src/**/*"
+    "dist/**/*"
   ]
 }
