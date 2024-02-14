@@ -2,8 +2,8 @@
   "name": "@randy.tarampi/playwright-cluster",
   "version": "0.4.0",
   "description": "Cluster management for playwright",
-  "main": "dist/src/index.js",
-  "types": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && npx tsc -p tsconfig.release.json",
     "test": "npx jest --collectCoverage --detectOpenHandles  --errorOnDeprecated --logHeapUsage --forceExit --runInBand --bail",
